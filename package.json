@@ -1,24 +1,22 @@
 {
-  "name": "component-emitter",
-  "description": "Event emitter",
-  "version": "1.2.1",
+  "name": "clean-emitter",
+  "description": "Listen and emit events without dirty your objects/classes.",
+  "version": "0.0.0",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "*",
-    "should": "*"
-  },
-  "component": {
-    "scripts": {
-      "emitter/index.js": "index.js"
-    }
+    "mocha": "^5.0.5",
+    "should": "^13.2.1"
   },
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/component/emitter.git"
+    "url": "https://github.com/VitorLuizC/clean-emitter.git"
   },
   "scripts": {
-    "test": "make test"
+    "test": "mocha --require should --reporter spec"
   },
-  "files": ["index.js", "LICENSE"]
+  "files": [
+    "index.js",
+    "LICENSE"
+  ]
 }

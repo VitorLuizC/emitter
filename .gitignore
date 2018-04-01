@@ -1,1 +1,12 @@
-node_modules
+# OSX Finder's settings.
+.DS_Store
+
+# Node.js modules.
+node_modules/
+
+# NPM's lockfile.
+package-lock.json
+
+# Log files.
+*.log
+*.log.*
